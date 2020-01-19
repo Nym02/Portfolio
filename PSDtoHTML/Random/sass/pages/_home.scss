@@ -1,0 +1,15 @@
+.header {
+  padding: 3rem 0;
+  border-bottom: 1px solid $color-grey-light-1;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5rem;
+  margin-top: 4rem;
+}
+.logo {
+  &__photo {
+    margin-left: 3rem;
+  }
+}
