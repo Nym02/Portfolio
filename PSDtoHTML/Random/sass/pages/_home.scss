@@ -1,0 +1,61 @@
+.header {
+  padding: 2.5rem 0;
+  border-bottom: 1px solid $color-grey-light-1;
+  width: 97%;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5rem;
+  margin-top: 4rem;
+}
+.logo {
+  &__photo {
+    margin-left: 3rem;
+  }
+}
+
+.section-main {
+  padding: 4rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main {
+  width: 85%;
+  text-align: center;
+  &__photo {
+    width: 90%;
+    height: 45rem;
+  }
+  &__text {
+    width: 12%;
+    text-align: center;
+    margin-right: 4rem;
+    &-para {
+      font-size: 1.5rem;
+      margin: 1rem 0;
+    }
+  }
+}
+
+.section__gallery {
+  padding: 4rem 0;
+}
+.gallery__text {
+  text-align: center;
+
+  &-para {
+    width: 30%;
+    font-size: 1.7rem;
+    font-style: italic;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+  }
+}
+.gallery__button {
+  display: flex;
+  justify-content: center;
+}

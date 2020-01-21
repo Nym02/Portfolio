@@ -1,0 +1,61 @@
+.footer-area {
+  color: $color-white;
+  border-top: 0.3rem solid $color-grey-dark;
+  padding-top: 0.1rem;
+}
+.footer-info {
+  background-color: $color-dark-1;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4rem 0;
+}
+.company {
+  font-size: 1.7rem;
+  &-para {
+    color: $color-grey-light-1;
+  }
+  &-tel {
+    margin-top: 3rem;
+    color: $color-grey-light-1;
+  }
+  &-email {
+    color: $color-grey-light-1;
+  }
+}
+
+.latest {
+  font-size: 1.7rem;
+  flex-basis: 40%;
+  &__header {
+    margin-bottom: 1rem;
+    color: $color-primary;
+  }
+  &__para {
+    margin-bottom: 2rem;
+    color: $color-grey-light-1;
+    text-align: justify;
+  }
+}
+.uptodate {
+  &__newsletter {
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+    color: $color-grey-light-1;
+  }
+  &__form {
+    margin-bottom: 2rem;
+  }
+}
+.social__icons {
+  font-size: 6rem;
+  margin-top: 5rem;
+  cursor: pointer;
+}
+.footer-copyright {
+  background-color: $color-dark-2;
+  padding: 2rem 0;
+  font-size: 1.7rem;
+  &__para {
+    margin-left: 4rem;
+  }
+}
