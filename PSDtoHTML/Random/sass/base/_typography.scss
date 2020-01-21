@@ -1,0 +1,16 @@
+.heading__primary {
+  font-style: inherit;
+  font-size: 6rem;
+  color: $color-secondary;
+
+  &-gallery {
+    font-size: 4rem;
+  }
+}
+.heading__tertiary {
+  font-size: 1.8rem;
+  &-footer {
+    margin-bottom: 2rem;
+    letter-spacing: 0.1rem;
+  }
+}
