@@ -2,6 +2,9 @@
   &__list {
     list-style: none;
     display: flex;
+    // @include respond(tab-port) {
+    //   display: none;
+    // }
   }
   &__item {
     &:not(:last-child) {
@@ -17,9 +20,21 @@
       font-family: inherit;
       color: $color-secondary;
       letter-spacing: 0.2rem;
+      @include respond(tab-port) {
+        font-size: 1.4rem;
+      }
       &:hover {
         color: $color-primary;
       }
     }
+  }
+}
+
+.res-menu i {
+  font-size: 2rem;
+  color: $color-primary;
+  display: none;
+  @include respond(tab-port) {
+    display: block;
   }
 }
