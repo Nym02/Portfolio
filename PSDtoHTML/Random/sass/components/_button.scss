@@ -4,6 +4,9 @@
     text-decoration: none;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
+    @include respond(tab-port) {
+      padding: 0.8rem 1.2rem;
+    }
   }
   &-primary {
     background-color: $color-primary;
@@ -11,5 +14,8 @@
     font-size: 2rem;
     margin: 1rem 0;
     color: $color-white;
+    @include respond(tab-port) {
+      font-size: 1.6rem;
+    }
   }
 }
