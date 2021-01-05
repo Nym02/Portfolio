@@ -23,3 +23,59 @@ body {
   color: black;
   font-weight: bold;
 }
+
+.section-intro {
+  padding: 50px 0;
+}
+.intro-info {
+  float: left;
+  margin-top: 120px;
+  width: 40%;
+}
+.header-name-1 {
+  font-family: "Passion One", cursive;
+  font-size: 60px;
+  margin: 0px 0px;
+  color: #2c2929;
+}
+.header-name-2 {
+  font-family: "Passion One", cursive;
+  font-size: 60px;
+  color: #f56260;
+  margin: 2px 0;
+}
+.intro-text {
+  font-size: 17px;
+  color: darkolivegreen;
+}
+.btn-hire-me {
+  display: inline-block;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, #f56260, #e4aa52);
+  padding: 15px 30px;
+  border-radius: 7px;
+  color: white;
+}
+.intro-img {
+  text-align: center;
+}
+.intro-img-mod {
+  width: 40%;
+  margin-top: -110px;
+}
+
+.about-img {
+  float: left;
+  width: 60%;
+}
+.about-img-mod {
+  width: 68%;
+  margin-top: -164px;
+}
+.about-info {
+}
+.about-text {
+  margin: 30px;
+  padding: 0 70px;
+  text-align: justify;
+}
