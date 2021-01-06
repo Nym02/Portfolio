@@ -80,3 +80,37 @@ body {
   text-align: justify;
   color: darkolivegreen;
 }
+
+.section-project {
+  padding: 160px 0;
+  background-color: whitesmoke;
+  height: 700px;
+}
+.project-header {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+.project-heading {
+}
+.project-heading-mod {
+  color: orange;
+}
+.projects {
+}
+.project-1 {
+  background-color: white;
+  width: 23%;
+  padding: 2%;
+  margin-right: 6%;
+  border-radius: 47px;
+  float: left;
+  box-shadow: 2px 3px 27px -2px black;
+}
+.project-img {
+  text-align: center;
+}
+.project-img-mod {
+  width: 100%;
+}
