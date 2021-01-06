@@ -25,7 +25,7 @@ body {
 }
 
 .section-intro {
-  padding: 50px 0;
+  padding: 150px 0;
 }
 .intro-info {
   float: left;
@@ -92,7 +92,12 @@ body {
   text-transform: uppercase;
   margin-bottom: 100px;
 }
-.project-heading {
+.project-1-heading {
+  font-family: "Lato";
+  font-weight: 900;
+}
+.project-intro {
+  color: grey;
 }
 .project-heading-mod {
   color: orange;
@@ -113,4 +118,104 @@ body {
 }
 .project-img-mod {
   width: 100%;
+}
+
+.our-clients {
+  padding: 100px 0;
+  height: 600px;
+}
+.client {
+}
+.client-1 {
+  float: left;
+  overflow: hidden;
+  width: 28%;
+  padding: 50px 2%;
+  border: 2px solid #ffa500;
+  margin-left: 16px;
+  text-align: center;
+}
+.client-img {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border: 1px solid black;
+  border-radius: 60px;
+  margin: auto;
+}
+.client-img-mod {
+  width: 40%;
+  margin-top: 25px;
+}
+.client-name {
+  font-size: 35px;
+  margin-bottom: 12px;
+  font-family: "Lato";
+  font-weight: 900;
+}
+.client-msg {
+  color: grey;
+  font-family: "Lato";
+}
+.section-chat {
+  padding: 100px 0;
+  height: 500px;
+}
+.inquiry {
+  background-image: url(img/chat.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 378px;
+}
+.inquiry-header {
+  float: left;
+  width: 70%;
+  margin-top: 165px;
+  margin-left: 90px;
+  text-transform: uppercase;
+  font-size: 55px;
+  font-family: "Passion One";
+  color: white;
+}
+.inquiry-btn {
+  text-align: right;
+  padding-top: 180px;
+}
+.btn-chat {
+  color: white;
+  text-decoration: none;
+  margin-right: 43px;
+  background-image: linear-gradient(to bottom, #f56360, #f7a761);
+  padding: 15px 46px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.section-contact {
+  padding: 80px 0;
+}
+.contact {
+  text-align: center;
+}
+.contact-heading-1 {
+  font-family: "Passion One";
+  color: #8c8888;
+}
+.contact-email {
+  font-size: 51px;
+  margin: 2px 0;
+  margin-bottom: 33px;
+  font-weight: 900;
+  color: #3e3a3a;
+}
+.contact-icon {
+}
+.icon-1 {
+  margin-right: 36px;
+  width: 3%;
+}
+.icon-2 {
+}
+.icon-3 {
 }
